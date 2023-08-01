@@ -1,0 +1,96 @@
+body{
+    background:url(../images/bg-desktop.svg) center no-repeat;
+    background-size: cover;
+    background-color:hsl(257, 40%, 49%);
+    font-family: 'Poppins',sans-serif;
+    color: hsl(0,0%,100%);
+}
+
+header{
+    padding: 50px;
+}
+
+.mockups{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.illustration-mockups{
+    width: 45%;
+}
+
+.illustration{
+    width: 100%;
+    margin: 0 50px;
+}
+
+.info{
+    width: 45%;
+    display:flex;
+    flex-direction: column;
+    margin-top: 30px;
+    align-items: flex-start;
+}
+
+.title{
+    font-family: 'Poppins',sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.text{
+    width: 70%;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    margin: 0 0 32px;
+}
+
+button{
+    width: 40%;
+    font-size:15px;
+    padding: 15px 10px;
+    border-radius: 35px;
+    border: none;
+    background-color:hsl(0,0%,100%);
+    color: hsl(257, 40%, 49%) ;
+    transition: 0.2s;
+}
+
+button:hover{
+    background-color: hsl(300, 69%, 71%);
+    color: hsl(0,0%,100%);
+    transition: 0.2;
+    cursor: pointer;
+}
+
+.social{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 20px;
+}
+
+.social i{
+    padding: 10px;
+    border: solid 1px;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.social a{
+    margin: 0 10px;
+    color: hsl(0,0%,100%);
+}
+
+.social a:hover{
+    color: hsl(300, 69%, 71%);
+}
+  
+.social .fa-facebook-f{
+    padding: 10px 15px;
+}
